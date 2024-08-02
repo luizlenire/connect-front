@@ -1,0 +1,12 @@
+﻿<script>
+    @if (TempData["notification"] != null)
+    {
+        @Html.Raw(TempData["notification"].ToString())
+    }
+</script>
+
+<style>
+    .swal2-container {
+        z-index: 10000;
+    }
+</style>
